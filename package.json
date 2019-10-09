@@ -1,0 +1,45 @@
+{
+  "name": "@8pattern/jhistory",
+  "version": "1.0.0",
+  "description": "a library to record the target's changes for JS",
+  "main": "./dist/jHistory.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "keywords": [
+    "change record"
+  ],
+  "author": "8th-pattern",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.18",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "terser-webpack-plugin": "^2.1.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@8pattern/jevent": "^1.0.0",
+    "@8pattern/jhistory": "^1.0.0",
+    "@8pattern/jselection": "^0.1.0",
+    "immutable": "^4.0.0-rc.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8th-pattern/jHistory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/8th-pattern/jHistory/issues"
+  },
+  "homepage": "https://github.com/8th-pattern/jHistory#readme"
+}
