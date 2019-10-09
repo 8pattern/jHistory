@@ -29,9 +29,6 @@
     "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "@8pattern/jevent": "^1.0.0",
-    "@8pattern/jhistory": "^1.0.0",
-    "@8pattern/jselection": "^0.1.0",
     "immutable": "^4.0.0-rc.12"
   },
   "repository": {
